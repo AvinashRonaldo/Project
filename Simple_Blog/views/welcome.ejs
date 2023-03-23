@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HomePage</title>
+</head>
+<body>
+    <h1>Welcome Page</h1>
+    <h1>This is Welcome page</h1>
+    <% for(var i=0; i<story.length; i++){ %>
+        <h1><%= story[i].storyTitle %></h1>
+        <h3><%= story[i].description %></h3>
+         } %>
+    <li><a href="/create_story"> Create</a></li>
+    <li><a href="/logout">Logout</a></li>
+    
+</body>
+</html>
